@@ -1,6 +1,6 @@
 // WebView
 (function () {
-    console.log('Hello');
+    console.log(currentUrl);
     var eventHandlers = {};
 
     var locationHash = '';
