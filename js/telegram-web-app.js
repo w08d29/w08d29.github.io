@@ -1,4 +1,5 @@
 // WebView
+console.log('Hello');
 (function () {
     var eventHandlers = {};
 
