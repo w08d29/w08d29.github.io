@@ -1,4 +1,12 @@
 // WebView
+function logIframesAndUrls() {
+  const iframes = document.querySelectorAll('iframe');
+  iframes.forEach((iframe, index) => {
+    console.log(`Iframe ${index + 1}:`, iframe);
+    console.log(`URL ${index + 1}:`, iframe.src);
+  });
+}
+logIframesAndUrls();
 (function () {
     var eventHandlers = {};
 
