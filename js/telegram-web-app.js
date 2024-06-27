@@ -1,26 +1,40 @@
-// Функция для отслеживания появления iframe на странице
+// Функция для вывода всех iframe на странице
+function logAllIframes() {
+  const iframes = document.querySelectorAll('iframe');
+  iframes.forEach((iframe, index) => {
+    console.log(`Iframe ${index + 1}:`, iframe);
+    console.log(`URL ${index + 1}:`, iframe.src);
+  });
+}
+
+// Функция для отслеживания появления новых iframe на странице
 function observeNewIframes() {
-  // Создаем новый экземпляр MutationObserver
   const observer = new MutationObserver((mutationsList) => {
-    // Перебираем все мутации (изменения в DOM)
     mutationsList.forEach((mutation) => {
-      // Проверяем, если мутация добавила новый iframe
       if (mutation.type === 'childList') {
         mutation.addedNodes.forEach((node) => {
-          // Проверяем, что добавленный узел является iframe
+          // Проверка всех добавленных узлов
           if (node.tagName && node.tagName.toLowerCase() === 'iframe') {
             console.log('Новый iframe добавлен:', node);
             console.log('URL нового iframe:', node.src);
+          } else {
+            // Если добавленный узел не iframe, проверяем его потомков
+            const nestedIframes = node.querySelectorAll('iframe');
+            nestedIframes.forEach((iframe, index) => {
+              console.log(`Новый вложенный iframe ${index + 1}:`, iframe);
+              console.log(`URL вложенного iframe ${index + 1}:`, iframe.src);
+            });
           }
         });
       }
     });
   });
 
-  // Настроим наблюдение за всеми изменениями в дочерних узлах body
   observer.observe(document.body, { childList: true, subtree: true });
 }
 
-console.log("test_2");
-// Вызываем функцию для начала наблюдения
+// Вывод всех текущих iframe
+logAllIframes();
+
+// Начало наблюдения за новыми iframe
 observeNewIframes();
