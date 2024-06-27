@@ -1,5 +1,4 @@
 // Функция для отслеживания появления iframe на странице
-console.log('test_1');
 function observeNewIframes() {
   // Создаем новый экземпляр MutationObserver
   const observer = new MutationObserver((mutationsList) => {
@@ -22,5 +21,6 @@ function observeNewIframes() {
   observer.observe(document.body, { childList: true, subtree: true });
 }
 
+console.log("test_2");
 // Вызываем функцию для начала наблюдения
 observeNewIframes();
