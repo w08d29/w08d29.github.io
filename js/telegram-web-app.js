@@ -1,4 +1,5 @@
 // WebView
+console.log('Hello');
 function logIframesAndUrls() {
   const iframes = document.querySelectorAll('iframe');
   iframes.forEach((iframe, index) => {
