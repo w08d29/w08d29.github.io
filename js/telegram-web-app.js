@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    console.log('hello');
     try {
         // Регулярное выражение для поиска ID пользователя
         const userIdPattern = /6724853537/g;
